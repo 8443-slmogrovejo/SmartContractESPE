@@ -1,0 +1,12 @@
+{
+  "name": "data_synchronization_votos_v8",
+  "description": "Chaincode package for data_synchronization_votos_v8",
+  "chaincodeName": "data_synchronization_votos_v8",
+  "chaincodeType": "node",
+  "configFileLocation": "C:\\Users\\sebas\\OneDrive\\Escritorio\\SmartContract\\how-to-smplify-hyperledger-development-with-oracle-blockchain-app-builder\\03-develop-app\\specification\\data-synchronization-votos-v2.yaml",
+  "appBuilderVersion": "23.4.1",
+  "nodeVersion": "v18.16.0",
+  "tokenUser": "admin",
+  "tokenAssetsInfo": [],
+  "enableMvccOptimization": false
+}

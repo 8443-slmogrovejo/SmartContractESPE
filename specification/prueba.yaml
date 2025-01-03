@@ -1,0 +1,29 @@
+assets:
+  - name: rol
+    properties:
+      - name: idRol
+        type: string
+        mandatory: true
+        id: true
+        validate: min(1),max(10)
+      - name: nombreRol
+        type: string
+        mandatory: true
+        validate: max(10)
+      - name: crearVotacion
+        type: number
+        mandatory: true
+      - name: verResultados
+        type: number
+        mandatory: true
+    methods:
+      crud: [create, getById, update, delete]
+      others: [getHistoryById, getByRange]
+customMethods:
+  - "createRole(idRol: string, nombreRol: string, crearVotacion: number, verResultados: number)"
+  - "getRoleById(idRol: string)"
+  - "updateRole(idRol: string, nombreRol?: string, crearVotacion?: number, verResultados?: number)"
+  - "deleteRole(idRol: string)"
+  - "getRoleHistory(idRol: string)"
+  - "getRolesByRange(startId: string, endId: string)"
+  - "executeQuery(query: string)"

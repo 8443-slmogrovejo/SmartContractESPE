@@ -1,0 +1,39 @@
+assets:
+  - name: votosListas
+    properties:
+      - name: idVoto
+        type: string
+        mandatory: true
+        id: true
+        validate: min(1),max(40)
+      - name: idLista
+        type: string
+        mandatory: true
+        validate: min(1),max(10)
+      - name: periodoPostulacion
+        type: string
+        mandatory: true
+        validate: min(1),max(10)
+      - name: idUs
+        type: string
+        mandatory: true
+        validate: min(1),max(10)
+      - name: fechaVotacion
+        type: string
+        mandatory: true
+      - name: aceptaAuditoria
+        type: number
+        mandatory: false
+        default: 0
+    methods:
+      crud: [create, getById, update, delete]
+      others: [getHistoryById, getByRange]
+customMethods:
+  - "createVote(idVoto: string, idLista: string, periodoPostulacion: string, idUs: string, fechaVotacion: string, aceptaAuditoria: number)"
+  - "getVoteById(idVoto: string)"
+  - "updateVote(idVoto: string, idLista?: string, periodoPostulacion?: string, idUs?: string, fechaVotacion?: string, aceptaAuditoria?: number)"
+  - "deleteVote(idVoto: string)"
+  - "getVoteHistory(idVoto: string)"
+  - "getVotesByRange(startIdLista: string, endIdLista: string)"
+  - "getVotesByPeriod(periodoPostulacion: string)"
+  - "executeQuery(query: string)"
