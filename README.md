@@ -2,7 +2,7 @@
 
 ### Versión: 8
 
-Esta es la versión 8 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad.
+Esta es la versión 8 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad. La version 8 en formato zip es la que se debe subir a la Oracle Blockchain Platform
 
 ---
 
@@ -52,5 +52,5 @@ Este comando crea un paquete listo para desplegar en la red.
 
 ---
 
-© 2025 SmartContract Development Team.
+© 2025 SmartContract Development Team Sebastian Mogrovejo - Emilio Ñacato
 
