@@ -1,8 +1,8 @@
 # SmartContract Título
 
-### Versión: 8
+### Versión: 12
 
-Esta es la versión 8 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad. La version 8 en formato zip es la que se debe subir a la Oracle Blockchain Platform
+Esta es la versión 12 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad. La version 12 en formato zip es la que se debe subir a la Oracle Blockchain Platform
 
 ---
 
@@ -27,7 +27,7 @@ ochain init --cc data_synchronization_votos_v8 --lang ts --conf specification/da
 ```
 
 Este comando:
-- Crea el SmartContract llamado `data_synchronization_votos_v8`.
+- Crea el SmartContract llamado `data_synchronization_votos_v12`.
 - Especifica el lenguaje de implementación como TypeScript.
 - Utiliza el archivo de configuración proporcionado para la sincronización de datos.
 - Genera el SmartContract en el directorio `chaincodes`.
@@ -52,5 +52,5 @@ Este comando crea un paquete listo para desplegar en la red.
 
 ---
 
-© 2025 SmartContract Development Team Sebastian Mogrovejo - Emilio Ñacato
+© 2025 SmartContract Development Sebastian Mogrovejo - Emilio Ñacato
 
