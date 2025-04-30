@@ -23,7 +23,7 @@ Antes de comenzar, asegúrese de tener instaladas las herramientas necesarias:
 Ejecute el siguiente comando para inicializar el SmartContract desde el archivo de especificación:
 
 ```bash
-ochain init --cc data_synchronization_votos_v8 --lang ts --conf specification/data-synchronization-votos-v2.yaml -o chaincodes
+ochain init --cc data_synchronization_votos_v12 --lang ts --conf specification/data-synchronization-votos-v2.yaml -o chaincodes
 ```
 
 Este comando:
@@ -37,7 +37,7 @@ Este comando:
 Una vez inicializado, empaquete el SmartContract para su despliegue:
 
 ```bash
-ochain package -p chaincodes/data_synchronization_votos_v8
+ochain package -p chaincodes/data_synchronization_votos_v12
 ```
 
 Este comando crea un paquete listo para desplegar en la red.
