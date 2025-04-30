@@ -2,7 +2,7 @@
 
 ### Versión: 11
 
-Esta es la versión 11 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad. La version 11 en formato zip es la que se debe subir a la Oracle Blockchain Platform
+Esta es la versión 11 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad. IMPORTANTE: La version 11 en formato zip es la que se debe subir a la Oracle Blockchain Platform, en el apartado de chaincode se debe subir unicamente este archivo Zip y desplegar en los "peer" que utilicen.
 
 ---
 
