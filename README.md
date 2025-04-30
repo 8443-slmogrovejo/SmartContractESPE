@@ -1,8 +1,8 @@
 # SmartContract Título
 
-### Versión: 12
+### Versión: 11
 
-Esta es la versión 12 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad. La version 12 en formato zip es la que se debe subir a la Oracle Blockchain Platform
+Esta es la versión 11 del SmartContract, desarrollada como una versión importante basada en el archivo de especificaciones. Se han incorporado mejoras clave y correcciones en esta versión para optimizar su funcionalidad. La version 11 en formato zip es la que se debe subir a la Oracle Blockchain Platform
 
 ---
 
@@ -23,11 +23,11 @@ Antes de comenzar, asegúrese de tener instaladas las herramientas necesarias:
 Ejecute el siguiente comando para inicializar el SmartContract desde el archivo de especificación:
 
 ```bash
-ochain init --cc data_synchronization_votos_v12 --lang ts --conf specification/data-synchronization-votos-v2.yaml -o chaincodes
+ochain init --cc data_synchronization_votos_v11 --lang ts --conf specification/data-synchronization-votos-v2.yaml -o chaincodes
 ```
 
 Este comando:
-- Crea el SmartContract llamado `data_synchronization_votos_v12`.
+- Crea el SmartContract llamado `data_synchronization_votos_v11`.
 - Especifica el lenguaje de implementación como TypeScript.
 - Utiliza el archivo de configuración proporcionado para la sincronización de datos.
 - Genera el SmartContract en el directorio `chaincodes`.
@@ -37,7 +37,7 @@ Este comando:
 Una vez inicializado, empaquete el SmartContract para su despliegue:
 
 ```bash
-ochain package -p chaincodes/data_synchronization_votos_v12
+ochain package -p chaincodes/data_synchronization_votos_v11
 ```
 
 Este comando crea un paquete listo para desplegar en la red.
