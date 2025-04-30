@@ -16,19 +16,23 @@ export class VotosListas extends OchainModel<VotosListas> {
   public readonly assetType = "votosListas";
 
   @Mandatory()
-  @Validate(yup.string().min(1).max(40))
+  @Validate(yup.string().min(1).max(100))
   public idVoto: string;
   
   @Mandatory()
-  @Validate(yup.string().min(1).max(10))
+  @Validate(yup.string().min(1).max(40))
   public idLista: string;
   
   @Mandatory()
-  @Validate(yup.string().min(1).max(10))
+  @Validate(yup.string().min(1).max(100))
+  public nombreLista: string;
+  
+  @Mandatory()
+  @Validate(yup.string().min(1).max(40))
   public periodoPostulacion: string;
   
   @Mandatory()
-  @Validate(yup.string().min(1).max(10))
+  @Validate(yup.string().min(1).max(100))
   public idUs: string;
   
   @Mandatory()

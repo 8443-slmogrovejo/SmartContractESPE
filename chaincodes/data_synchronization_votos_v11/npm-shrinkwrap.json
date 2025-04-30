@@ -1,11 +1,11 @@
 {
-  "name": "data_synchronization_votos_v8",
+  "name": "data_synchronization_votos_v11",
   "version": "1.0.0",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
-      "name": "data_synchronization_votos_v8",
+      "name": "data_synchronization_votos_v11",
       "version": "1.0.0",
       "dependencies": {
         "fabric-shim": "2.5.2",

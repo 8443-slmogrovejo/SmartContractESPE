@@ -1,14 +1,14 @@
 {
-  "name": "data_synchronization_votos_v8",
+  "name": "data_synchronization_votos_v11",
   "version": "1.0.0",
-  "description": "Chaincode package for data_synchronization_votos_v8",
+  "description": "Chaincode package for data_synchronization_votos_v11",
   "main": "./dist/main.js",
   "files": [
     "dist/*"
   ],
   "scripts": {
     "start": "node ./dist/main.js",
-    "start:dev": "tsc --watch | CORE_CHAINCODE_ID_NAME=data_synchronization_votos_v8:1 CORE_CHAINCODE_LOGGING_SHIM=DEBUG nodemon --inspect ./dist/main.js --watch dist --peer.address grpc://localhost:7052",
+    "start:dev": "tsc --watch | CORE_CHAINCODE_ID_NAME=data_synchronization_votos_v11:1 CORE_CHAINCODE_LOGGING_SHIM=DEBUG nodemon --inspect ./dist/main.js --watch dist --peer.address grpc://localhost:7052",
     "start:ochain": "tsc --watch | nodemon ./dist/main.js --watch dist --verbose",
     "test": "jest --coverage"
   },
